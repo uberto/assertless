@@ -1,3 +1,4 @@
+package com.ubertob.assertless
 
 import org.opentest4j.AssertionFailedError
 
