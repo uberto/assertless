@@ -22,17 +22,17 @@ buildscript {
 }
 
 wrapper {
-    gradleVersion = "5.2.0"
+    gradleVersion = "5.2.1"
 }
 
-
-
-sourceCompatibility = "${jvmVersion}"
-targetCompatibility = "${jvmVersion}"
 
 repositories {
     jcenter()
 }
+
+
+sourceCompatibility = "${jvmVersion}"
+targetCompatibility = "${jvmVersion}"
 
 compileKotlin {
     kotlinOptions {
